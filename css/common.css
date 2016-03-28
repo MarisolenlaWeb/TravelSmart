@@ -1,0 +1,245 @@
+/******** Fonts *******/
+
+
+@font-face{
+	font-family: FoundrySterling;
+	src: url(../fonts/FoundrySterlingDemi.TTF);
+}
+
+*{
+	font-weight: lighter;
+}
+
+.font-blue{
+	color: #066071;
+}
+
+/******** Menu *********/
+
+/* Logo */
+.logo{
+	width: 70%;
+}
+
+.menu-social{
+	text-decoration: none;
+	margin: 60px 0 40px;
+}
+
+.menu-social li{
+	display: inline;
+	padding: 2px;
+	font-size: 16px;
+}
+
+.menu-social li img{
+	width: 25px;
+	z-index: 100;
+}
+
+.menu-social li img:hover{
+	-webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2)
+}
+.lang{
+	margin-left: 25px;
+}
+
+select {
+	width: 120px;
+	height: 25px;
+	border-style: none;
+	background-color: transparent;
+	background-image: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding-left: 10px;
+    padding-bottom: 3px;
+	
+}
+
+select:focus{ 
+	outline: none;
+}
+
+.select{
+	border: 1px solid #000;
+	overflow: hidden;
+	background: #fff url("../img/arrow.png") no-repeat 95% center;
+
+}
+
+.btn{
+	font-weight: 100;
+	letter-spacing: 1px;
+}
+.btn-principal {
+  color: #fff;
+  background-color: #e4a60e;
+  border-color: #e4a60e;
+  margin: 0;
+  padding: 7px 5px;
+  border-radius: 0;
+}
+
+.btn-principal:hover,
+.btn-principal:focus,
+.btn-principal.focus,
+.btn-principal:active,
+.btn-principal.active,
+.open > .dropdown-toggle.btn-principal {
+  color: #fff;
+  background-color: #066071;
+  border-color: #066071;
+}
+
+.btn-principal:active,
+.btn-principal.active,
+.open > .dropdown-toggle.btn-principal {
+  background-image: none;
+}
+
+.btn-principal.disabled,
+.btn-principal[disabled],
+fieldset[disabled] .btn-principal,
+.btn-principal.disabled:hover,
+.btn-principal[disabled]:hover,
+fieldset[disabled] .btn-principal:hover,
+.btn-principal.disabled:focus,
+.btn-principal[disabled]:focus,
+fieldset[disabled] .btn-principal:focus,
+.btn-principal.disabled.focus,
+.btn-principal[disabled].focus,
+fieldset[disabled] .btn-principal.focus,
+.btn-principal.disabled:active,
+.btn-principal[disabled]:active,
+fieldset[disabled] .btn-principal:active,
+.btn-principal.disabled.active,
+.btn-principal[disabled].active,
+fieldset[disabled] .btn-principal.active {
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+
+.dropdown-menu{
+	background-color: #e4a60e;
+	margin-left: 14px;
+}
+
+.dropdown-menu > li > a {
+  display: block;
+  padding: 6px 14px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #fff;
+  white-space: nowrap;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  color: #fff;
+  text-decoration: none;
+  background-color: #066071;
+}
+
+/******** Main image *********/
+
+.main-img{
+	position: relative;
+    width: 110%;
+    min-height: 400px;
+    text-align: center;
+    color: #fff;
+    background-image: url(../img/Fondo-Wings.jpg);
+    background-position: 0% 45%;
+    background-size: 93%;
+    background-repeat: no-repeat;
+    margin-top: -17px;
+    z-index: -1;
+}
+
+.main-img h1{
+	font-size: 22px;
+	margin-top: 70px;
+	text-align: left;
+	margin-left: 25%;
+	font-weight: 100;
+}
+
+.hr-blue{
+	width: 794px;
+	margin-left: 25%;
+	margin-top: 0px;
+	background-color: #066071;
+	border-color: #066071;
+}
+
+/******** Text block ********/
+
+.text-block{
+	margin: 30px 0;
+}
+
+p{
+	white-space: pre-line;
+	font-size: 16px;
+}
+
+span{
+	font-size: 22px;
+	color: #066071;
+}
+
+.text-block a{
+	margin-top: 25px; 
+	margin-bottom: 25px;
+	padding-left: 45px;
+	padding-right: 45px;
+}
+
+/******** Slide show ********/
+
+.slide-show{
+    width: 100%;
+    min-height: 280px;
+    color: #fff;
+    background-image: url(../img/Aerial_01.jpg);
+    background-position: 0% 70%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.slide-show p{
+	background-color: #066071;
+	color: #fff;
+	position: absolute;
+	padding: 5px 40px;
+	margin: 230px 0 0 315px;
+	font-size: 13px;
+	letter-spacing: 1px
+}
+
+/******** Footer ********/
+
+footer p, a{
+	color: #9a999e;
+	font-size: 14px;
+}
+
+.hr-gray{
+	background-color: #9a999e;
+	border-color: #9a999e;
+	margin-top: 0px;
+}
+
+
+
+
+
+
+
