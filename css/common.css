@@ -14,11 +14,15 @@
 	color: #066071;
 }
 
+.clearfix {
+    display: block;
+}
+
 /******** Menu *********/
 
 /* Logo */
 .logo{
-	width: 70%;
+	width: 300px;
 }
 
 .menu-social{
@@ -237,9 +241,35 @@ footer p, a{
 	margin-top: 0px;
 }
 
+footer img{
+	width: 11%;
+	margin: -10px 0 20px 21px;
+}
 
 
+@media (min-width: 768px){
+	footer img{
+		width: 11%;
+		margin: 0 10px 20px;
+	}
+}
 
-
+@media (max-width: 767px) {
+	.logo{
+	}
+	footer img{
+		width: 15%;
+		margin: 0 10px 20px;
+	}
+	.main-img h1{
+		text-align: center;
+		margin-left: 0;
+		margin-right: 6%;
+	}
+	.slide-show p{
+		padding: 5px 40px;
+		margin: 225px 0 0 130px;
+	}
+}
 
 
